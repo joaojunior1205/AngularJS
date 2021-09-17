@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 100px;
+    font-size: 40pt;
+    font-weight: bold;
+
+}
+
+.title img{
+    width: 100px;
+    height: 90px;
+    padding-right: 15px;
+
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main h4{
+    font-size: 24pt;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.left{
+    float: left;
+    width: 500px;
+    
+}
+
+.rigth{
+    width: auto;
+    float: right;
+    padding-left: 10px;
+    width: 500px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .botao{
+    width: 500px;
+    height: 50px;
+}
+
+.listagem{
+    padding-top: 30px;
+}
+
+
+
