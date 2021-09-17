@@ -64,7 +64,7 @@
                             </td>
                         </tr>
 
-                        <td class="align-middle" name="decricao" ng-bind="lbDescricao"></td>
+                        <td class="align-middle" name="decricao">Descrição</td>
                         <tr>
                             <td>
                                 <input ng-model="ficha.descricao" class="form-control input" type="text"
@@ -90,7 +90,7 @@
                         <td class="align-middle label" id="label" name="email"><span class="obrigatorio">*</span>E-mail</td>
                         <tr>
                             <td>
-                                <input ng-model="ficha.email" repeat="30" ng-maxlength="30" class="form-control input" type="text"
+                                <input ng-model="ficha.email" repeat="30" ng-maxlength="30" class="form-control input" type="email"
                                     placeholder="E-mail" required>
                             </td>
                         </tr>
@@ -109,7 +109,7 @@
                         <td class="align-middle label" id="label" name="veiculo">Veículo</td>
                         <tr>
                             <td>
-                                <input ng-model="ficha.veiculo" class="form-control input" type="text"
+                                <input ng-model="ficha.veiculo" class="form-control input" mask="@@@-9999" type="text"
                                     placeholder="Placa" required>
                             </td>
                         </tr>
@@ -154,7 +154,7 @@
                 <th>ID</th>
                 <th>Nome</th>
                 <th>CPF</th>
-                <th>TG</th>
+                <th>RG </th>
                 <th>Data de nascimento</th>
                 <th>Descrição</th>
                 <th>Telefone</th>

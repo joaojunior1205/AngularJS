@@ -16,8 +16,9 @@
 
 .title img{
     width: 100px;
-    height: 90px;
+    height: 100px;
     padding-right: 15px;
+    border-radius: 5px;
 
 }
 
