@@ -1,0 +1,11 @@
+{
+    "host":"smtp.gmail.com",
+    "port": 587,
+    "secure": false,
+    "user":"joaojunior1205@gmail.com",
+    "pass": "whpomrxwpkfiisek",
+    "rejectUnauthorized": false,
+
+    "from":"joaojunior1205@gmail.com",
+    "text":"Termo do trabalho de condominio aqui"
+}
