@@ -2,11 +2,6 @@ const nodemailer = require('nodemailer');
 const { host, port, secure, user, pass, rejectUnauthorized, from, text } = require('./config/mailConfig.json')
 const JSONTransport = require('nodemailer/lib/json-transport');
 
-var express = require('express');
-var app = express()
-
-
-
 function main(){
     const transport = nodemailer.createTransport({
         host,
@@ -46,14 +41,5 @@ function main(){
 
 };
 
-app.post('/sendMail', function (req, res){
-    res.send(envio())
-});
-
-app.listen(3000)
 
 console.log(main());
-
-// comentario
-
-
