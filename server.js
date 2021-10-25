@@ -45,7 +45,7 @@ app.post('/sendemail', function(req, res){
         to: req.body.to,
         from: "joaojunior.dev@hotmail.com",
         subject: "Teste de termo condiminio",
-        html: "<p>HTML version of the message</p>",
+        html: "<p>Olá, Teste da ficha de cadastro</p>",
         text: "message",
     };
 
