@@ -1,5 +1,31 @@
 {
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
     "nodemailer": "^6.6.5"
-  }
+  },
+  "name": "front-fichacadastro",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "angularjs",
+    "mailing"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaojunior1205/Front-FichaCadastro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaojunior1205/Front-FichaCadastro/issues"
+  },
+  "homepage": "https://github.com/joaojunior1205/Front-FichaCadastro#readme"
 }
