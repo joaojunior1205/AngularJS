@@ -42,11 +42,11 @@ app.post('/sendemail', function(req, res){
     console.log('===Resquest:', req.body);
 
     var mailOptions = {
-        from,
-        text,
         to: req.body.to,
+        from: "joaojunior.dev@hotmail.com",
         subject: "Teste de termo condiminio",
-        html: "<p>HTML version of the message</p>"
+        html: "<p>HTML version of the message</p>",
+        text: "message",
     };
 
     enviar = transport.sendMail(mailOptions);

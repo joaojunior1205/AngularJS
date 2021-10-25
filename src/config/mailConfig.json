@@ -1,11 +1,8 @@
 {
-    "host":"smtp.gmail.com",
+    "host":"smtp.office365.com",
     "port": 587,
     "secure": false,
-    "user":"joaojunior1205@gmail.com",
-    "pass": "whpomrxwpkfiisek",
-    "rejectUnauthorized": false,
-
-    "from":"joaojunior1205@gmail.com",
-    "text":"Termo do trabalho de condominio aqui"
+    "user":"joaojunior.dev@hotmail.com",
+    "pass": "Brasil1205",
+    "rejectUnauthorized": false
 }
